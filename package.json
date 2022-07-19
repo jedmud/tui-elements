@@ -1,0 +1,30 @@
+{
+  "name": "@jedmud/tui-elements",
+  "version": "0.0.1",
+  "description": "Jedmud TUI elements module.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedmud/tui-elements.git"
+  },
+  "keywords": [
+    "jedmud",
+    "terminal",
+    "tui",
+    "ui"
+  ],
+  "author": "Tanel Tammik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedmud/tui-elements/issues"
+  },
+  "homepage": "https://github.com/jedmud/tui-elements#readme",
+  "dependencies": {
+    "@jedmud/ansiwrap": "^0.0.1",
+    "ansi-escapes": "^4.0.0",
+    "deepmerge": "^4.2.2"
+  }
+}
