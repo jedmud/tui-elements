@@ -1,6 +1,6 @@
 {
   "name": "@jedmud/tui-elements",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Jedmud TUI elements module.",
   "main": "src/index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   "author": "Tanel Tammik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedmud/tui-elements/issues"
+    "url": "https://github.com/jedmud/tui/issues"
   },
-  "homepage": "https://github.com/jedmud/tui-elements#readme",
+  "homepage": "https://github.com/jedmud/tui#readme",
   "dependencies": {
     "@jedmud/ansiwrap": "^0.0.2",
     "ansi-escapes": "^4.0.0",
