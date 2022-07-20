@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jedmud/tui-elements#readme",
   "dependencies": {
-    "@jedmud/ansiwrap": "^0.0.1",
+    "@jedmud/ansiwrap": "^0.0.2",
     "ansi-escapes": "^4.0.0",
     "deepmerge": "^4.2.2"
   }
