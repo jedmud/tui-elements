@@ -7,7 +7,7 @@ module.exports = class {
         this.muted = true
     }
 
-    create() {
+    create(types, config) {
         this.types = types
         this.config = config
 
