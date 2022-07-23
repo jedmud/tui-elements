@@ -2,21 +2,22 @@ const deepmerge = require('deepmerge')
 const defautConfig = require('../config.json')
 
 module.exports = class {
-    constructor(types, config) {
-        this.types = types
-        this.config = config
+    constructor() {
         this.elements = {}
         this.muted = true
-
-        this.build()
     }
 
-    build() {
+    create() {
+        this.types = types
+        this.config = config
+
         for (const element of this.config) {
             const config = deepmerge(defautConfig, element)
 
             this.elements[element.name] = new this.types[element.type](this, config)
         }
+
+        return this
     }
 
     mute() {
